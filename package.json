@@ -1,0 +1,18 @@
+{
+    "name": "calculator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "tests.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css",
+        "test": "mocha test"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "mocha": "^10.1.0",
+        "node-sass": "^7.0.3",
+        "nyc": "^15.1.0"
+    }
+}
